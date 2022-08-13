@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(252, 252, 252);
+    height: 90px;
+}
+
+.logo_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
+.logo_principal img {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 30px;
+    padding-right: 50px;
+    background-color: rgb(0 161 255);
+}
+
+.menu_lista {
+    list-style: none;
+    font-family: 'Poppins', sanserif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.menu_link {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+.p1_intro_servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.p1_intro_servicios h2 {
+    font-family: 'Poppins', sanserif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.p1_intro_servicios p {
+    font-family: 'Poppins', sanserif;
+    font-style: normal;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.p1_img_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.p1_videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1_videos h3 {
+    font-family: 'Poppins', sanserif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.p1_videos_interes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+.p1_videos_interes iframe {
+    width: 400px;
+    height: 225px;
+}
+
+footer {
+    background-color: rgb(98 59 255);
+    height: 200px;
+    margin-top: 10px;
+}
+
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.redes_sociales img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.copyright li {
+    list-style: none;
+    font-family: 'Poppins', sanserif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: small;
+}
+
+.bloque_tipo_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px;
+    font-family: 'Poppins', sanserif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bloque_servicios1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sanserif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bloque_servicios2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sanserif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr {
+    size: 30px;
+    border-color: rgb(188, 204, 218);
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div {
+    margin: 3%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sanserif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.formulario_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    font-family: 'Poppins', sanserif;
+}
+
+.formulario_titulo {
+    font-family: 'Poppins', sanserif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+}

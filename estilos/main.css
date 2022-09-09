@@ -1,58 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 * {
-  Margin: 0;
-  padding: 0;
+    Margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 .color-header {
-  background-color: #1798D4;
+    background-color: #1798D4;
 }
 
 .color-header ul li {
-  text-align: center;
+    text-align: center;
 }
+
 .color-header ul li a {
-  color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .imagen-seccion {
-  background-image: url("../Images/inicio1.jpg");
-  background-size: initial;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-image: url("../Images/inicio1.jpg");
+    background-size: initial;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .servicios-div {
-  font-size: 0.8rem;
-  box-shadow: 0px 2px 6px gray;
+    font-size: 0.8rem;
+    box-shadow: 0px 2px 6px gray;
 }
 
 .titulos {
-  font-weight: 600;
-  font-size: 1.7rem;
-  border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .div-footer {
-  font-size: 0.8rem;
-  color: rgb(255, 255, 255);
-  background-color: #1798D4;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    background-color: #1798D4;
 }
 
 .color-footer- {
-  background-color: #116891;
+    background-color: #116891;
 }
 
 .div-iconos-footer a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .div-medicina {
@@ -64,34 +65,40 @@ body {
 .input-contacto {
     border: none;
     border-radius: 0px;
-    border-bottom: 1px solid rgb(23,151,211);
+    border-bottom: 1px solid rgb(23, 151, 211);
 }
+
 .input-contacto- {
-    border: 1px solid rgb(23,151,211);
+    border: 1px solid rgb(23, 151, 211);
 }
 
 @media only screen and (min-width: 1024px) {
     .div-footer {
-    font-size: 1rem;
-  }
-  .div-iconos-footer a {
-    font-size: 2.5rem;
-  }
-  .iframe-video {
-    height: 315px;
-  }
-}/*# sourceMappingURL=main.css.map */
+        font-size: 1rem;
+    }
+    .div-iconos-footer a {
+        font-size: 2.5rem;
+    }
+    .iframe-video {
+        height: 315px;
+    }
+}
 
- /*#region ANIMACION*/
- /*#region ANIMACION*/
+
+/*# sourceMappingURL=main.css.map */
+
+
+/*#region ANIMACION*/
+
 #div-animacion {
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: 100;
-    background: rgb(17,104,145);
-    background: linear-gradient(90deg, rgba(17,104,145,1) 0%, rgba(23,152,212,1) 50%, rgba(1,99,119,1) 100%);
+    background: rgb(17, 104, 145);
+    background: linear-gradient(90deg, rgba(17, 104, 145, 1) 0%, rgba(23, 152, 212, 1) 50%, rgba(1, 99, 119, 1) 100%);
 }
+
 .pulso-animado {
     overflow: hidden;
     position: absolute;
@@ -104,64 +111,57 @@ body {
     margin: auto;
 }
 
-    .pulso-animado:after {
-        content: '';
-        display: block;
-        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200px 100px" enable-background="new 0 0 200px 100px" xml:space="preserve"><polyline fill="none" stroke-width="3px" stroke="white" points="2.4,58.7 70.8,58.7 76.1,46.2 81.1,58.7 89.9,58.7 93.8,66.5 102.8,22.7 110.6,78.7 115.3,58.7 126.4,58.7 134.4,54.7 142.4,58.7 197.8,58.7 "/></svg>') 0 0 no-repeat;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        -webkit-animation: 2s pulso-wk linear infinite;
-        -moz-animation: 2s pulso-wk linear infinite;
-        -o-animation: 2s pulso-wk linear infinite;
-        animation: 2s pulso-wk linear infinite;
-        clip: rect(0, 0, 100px, 0);
-    }
+.pulso-animado:after {
+    content: '';
+    display: block;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200px 100px" enable-background="new 0 0 200px 100px" xml:space="preserve"><polyline fill="none" stroke-width="3px" stroke="white" points="2.4,58.7 70.8,58.7 76.1,46.2 81.1,58.7 89.9,58.7 93.8,66.5 102.8,22.7 110.6,78.7 115.3,58.7 126.4,58.7 134.4,54.7 142.4,58.7 197.8,58.7 "/></svg>') 0 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-animation: 2s pulso-wk linear infinite;
+    -moz-animation: 2s pulso-wk linear infinite;
+    -o-animation: 2s pulso-wk linear infinite;
+    animation: 2s pulso-wk linear infinite;
+    clip: rect(0, 0, 100px, 0);
+}
 
-    .pulso-animado:before {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        left: 2px;
-        right: 2px;
-        bottom: 0;
-        top: 16px;
-        margin: auto;
-        height: 3px;
-    }
-
+.pulso-animado:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 2px;
+    right: 2px;
+    bottom: 0;
+    top: 16px;
+    margin: auto;
+    height: 3px;
+}
 
 @-webkit-keyframes pulso-wk {
     0% {
         clip: rect(0, 0, 100px, 0);
         opacity: 0.4;
     }
-
     4% {
         clip: rect(0, 66.66667px, 100px, 0);
         opacity: 0.6;
     }
-
     15% {
         clip: rect(0, 133.33333px, 100px, 0);
         opacity: 0.8;
     }
-
     20% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 1;
     }
-
     80% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 0;
     }
-
     90% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 0;
     }
-
     100% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 0;
@@ -172,29 +172,23 @@ body {
     0% {
         clip: rect(0, 0, 100px, 0);
     }
-
     4% {
         clip: rect(0, 66.66667px, 100px, 0);
     }
-
     15% {
         clip: rect(0, 133.33333px, 100px, 0);
     }
-
     20% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 1;
     }
-
     80% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 0;
     }
-
     90% {
         opacity: 0;
     }
-
     100% {
         clip: rect(0, 300px, 100px, 0);
         opacity: 0;
